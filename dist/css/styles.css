@@ -68,6 +68,28 @@ body {
   background-color: #fff;
 }
 
+@media screen and (max-width: 1800px) {
+  .first {
+     height: 300px;
+     width: 450px;
+  }
+  .second {
+    height: 300px;
+    width: 450px;
+ }
+}
+
+@media screen and (max-width: 1440px) {
+  .first {
+     height: 300px;
+     width: 450px;
+  }
+  .second {
+    height: 300px;
+    width: 450px;
+ }
+}
+
 @media screen and (max-width: 1200px) {
   .first {
      height: 250px;
@@ -104,6 +126,11 @@ body {
 
 @media screen and (max-width: 575) {
   .first {
+     height: 150px;
+     width: 100px;
+  }
+
+  .second {
      height: 150px;
      width: 100px;
   }
