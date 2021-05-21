@@ -68,9 +68,9 @@ body {
   background-color: #fff;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 1799px) {
   .first {
-     height: 450px;
+     height: 350px;
      width: 500px;
   }
   .second {
@@ -78,6 +78,8 @@ body {
     width: 500px;
  }
 }
+
+
 
 @media screen and (max-width: 1440px) {
   .first {
